@@ -1,0 +1,26 @@
+.menubut{
+    color: teal;
+}
+header nav,
+header li a,
+footer,
+.m_list {
+    background-color: teal;
+}
+
+header a:hover,
+.m_list:hover {
+    background-color: #005050;
+}
+
+.s_list:link,
+.s_list:visited,
+.s_list:hover,
+.s_list:active,
+.s_list a {
+    color: #005050;
+}
+
+.s_list:hover, h1 {
+    color: teal;
+}

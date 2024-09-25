@@ -1,0 +1,183 @@
+/*Full-side settings*/
+#side {
+    width: 960px;
+    margin: 0 auto;
+}
+/*Header settings*/
+header {
+    width: 100%;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+header nav {
+    height: 60px;
+}
+.menubut{
+    font-size: 100px;
+    text-align: right;
+    margin: 0;
+}
+#bar_nav{
+    padding: 0px;
+}
+header li {
+    display: inline;
+    font-size: 25px;
+    text-align: center;
+    height: 60px;
+}
+#home{
+    width:5%;
+}
+header li a {
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    width: 14.8%;
+}
+/*Header-hyperlinks settings*/
+header a:link,
+header a:visited,
+header a:hover,
+header a:active {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    font-weight: 1000;
+}
+/*Aside settings*/
+aside {
+    width: 25%;
+    padding: 0;
+    float: left;
+}
+/*Aside Nav*/
+aside ul{
+    padding: 0;
+}
+aside li{
+    display: block;
+    font-size: 20px;
+    height: 40px;
+}
+.m_list{
+    color: white;
+    font-size: 22px;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+.s_list{
+    background-color: #e6e6e6;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.m_list:link,
+.m_list:visited,
+.m_list:hover,
+.m_list:active,.m_list a{
+    text-decoration: none;
+    color: white;
+}
+.m_list:hover{
+    font-weight: 1000;
+}
+.s_list:link,
+.s_list:visited,
+.s_list:hover,
+.s_list:active,
+.s_list a {
+    text-decoration: none;
+}
+.s_list:hover {
+    font-weight: 1000;
+    background-color: #d5d5d5;
+}
+/*Main page settings*/
+main{
+    float: right;
+    margin-right: 15px;
+    width: 70%;
+}
+article {
+    width: 100%;
+}
+article h1{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+/*przyciski do podstron*/
+.button {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    border: 2px solid black;
+    border-radius: 25px;
+    text-align: center;
+}
+#html{
+    background-color: #D14900;
+    border-color: #D14900;
+}
+#css{
+    background-color: rgb(41,101,241);
+    border-color: rgb(41,101,241);
+}
+#js{
+    background-color: #ecc61d;
+    border-color: #ecc61d;
+}
+#php{
+    background-color: #686b9d;
+    border-color: #686b9d;
+}
+#sql{
+    background-color: black;
+}
+#other{
+    background-color: teal;
+    border-color: teal;
+}
+.buton a:link,
+.buton a:visited,
+.button a:hover,
+.button a:active, .button a {
+    color: white;
+    text-decoration: none;
+}
+#js a:link,
+#js a:visited,
+#js a:hover,
+#js a:active, #js a {
+    color: black;
+    text-decoration: none;
+}
+dt a:link,
+dt a:visited,
+dt a:hover,
+dt a:active,
+dt a{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+dt a:hover{
+    color: green;
+}
+/*Footer settings*/
+footer {
+    width: 100%;
+    clear: both;
+    color: white;
+    font-size: 12px;
+    padding: 15px;
+}
+footer h1{
+    font-size: 14px;
+    color: white;
+}

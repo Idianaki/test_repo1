@@ -1,0 +1,24 @@
+header nav,
+header li a,
+footer,
+.m_list {
+    background-color: black;
+}
+
+header a:hover,
+.m_list:hover {
+    background-color: #333;
+}
+
+.s_list:link,
+.s_list:visited,
+.s_list:hover,
+.s_list:active,
+.s_list a {
+    color: #333;
+}
+
+.s_list:hover,
+h1 {
+    color: black;
+}

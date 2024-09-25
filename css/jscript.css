@@ -1,0 +1,50 @@
+body{
+    background-color: #555;
+}
+.menubut, h1{
+    color: #ecc61d;
+}
+header li a,
+header nav,
+footer, footer h1,
+header a:link,
+header a:visited,
+header a:hover,
+header a:active{
+    color: #4A4A4A;
+    background-color: #ecc61d;
+}
+header a:hover{
+    background-color: #d6be00;
+}
+main p{
+	color: white;
+}
+.m_list a{
+    color: #4A4A4A;
+}
+.m_list{
+    color:#4A4A4A;
+    background-color:#ecc61d;
+}
+
+.m_list:hover
+{
+    background-color: #d6be00;
+    color: #4A4A4A;
+}
+.s_list a{
+    color: #d6be00;
+}
+.s_list,
+.s_list:link,
+.s_list:visited,
+.s_list:hover,
+.s_list:active
+{
+    color: #d6be00;
+    background-color: #4A4A4A;
+}
+.s_list:hover{
+    background-color: #555;
+}

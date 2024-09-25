@@ -1,0 +1,27 @@
+.menubut{
+    color: #686b9d;
+}
+header nav,
+header li a,
+footer,
+.m_list {
+    background-color: #686b9d;
+}
+
+header a:hover,
+.m_list:hover {
+    background-color: rgb(74,78,139);
+}
+
+.s_list:link,
+.s_list:visited,
+.s_list:hover,
+.s_list:active,
+.s_list a {
+    color: rgb(74,78,139);
+}
+
+.s_list:hover,
+h1 {
+    color: #686b9d;
+}

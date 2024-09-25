@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Joanna Żuchowska" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Learn W3</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/resp.css">
+</head>
+
+<body>
+    <div id="side">
+        <div id="backg" onclick="hideMenu()"></div>
+        <header>
+            <img src="img/logo.png" alt="logo">
+            <p class="menubut" onclick="seeMenu()"><i class="icon-home"></i></p>
+            <nav id="first_nav">
+                <ul id="bar_nav">
+                    <li class="side_nav" id="sec_menu"><a onclick="sideMenu()">Menu Strony</a></li>
+                    <li class="side_nav"><a href="index.html" id="home"><i class="icon-home"></i></a></li>
+                    <li class="side_nav"><a href="pages/html5.html">HTML</a></li>
+                    <li class="side_nav"><a href="pages/css3.html">CSS</a></li>
+                    <li class="side_nav"><a href="pages/jscript.html">JavaScript</a></li>
+                    <li class="side_nav"><a href="pages/php.html">PHP</a></li>
+                    <li class="side_nav"><a href="pages/sql.html">SQL</a></li>
+                </ul>
+            </nav>
+        </header>
+        <aside id="side_menu">
+            <ul>
+                <li class="m_list" id="back" onclick="goBack()">Wcześniejsza Strona</li>
+                <li class="m_list">Internet</li>
+                <li class="s_list"><a href="#">Internet VS WWW</a></li>
+                <li class="s_list"><a href="#">HTTP</a></li>
+                <li class="s_list"><a href="#">Przeglądarki</a></li>
+                <li class="s_list"><a href="#">DNS i domeny</a></li>
+                <li class="s_list"><a href="#">Serwer</a></li>
+                <li class="m_list"><a href="#">Programy</a></li>
+                <li class="m_list"><a href="#">Standardy</a></li>
+                <li class="m_list">Inne Strony</li>
+                <li class="s_list"><a href="https://www.w3schools.com/">W3School</a></li>
+                <li class="s_list"><a href="https://roadmap.sh">Roadmaps</a></li>
+            </ul>
+        </aside>
+        <main>
+            <article>
+                <h1>Cel Strony</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In felis neque, pretium ac odio ac,
+                    accumsan
+                    ornare nisl.
+                    Vestibulum viverra libero ac porta malesuada. Sed commodo at mauris non ullamcorper. Suspendisse
+                    vitae
+                    est congue,
+                    tempus augue nec, eleifend felis. Nulla sed dolor nisi. Aliquam dolor ante, ultricies a porta
+                    sagittis,
+                    elementum in
+                    quam. Phasellus eget nunc imperdiet, cursus ante eu, varius ligula. Etiam vitae turpis eu dolor
+                    fermentum fringilla eget
+                    nec dolor. Morbi luctus dignissim erat ut dapibus.
+
+                    Nunc sagittis nunc ac magna vehicula imperdiet. Praesent tincidunt suscipit augue id iaculis. Ut
+                    quis
+                    hendrerit nulla.
+                    Vivamus id lobortis mauris. Sed fringilla vehicula ex, in euismod ligula. Vivamus vitae justo justo.
+                    Nunc enim felis,
+                    pulvinar vel libero ac, iaculis convallis urna. Praesent vehicula augue non ultricies commodo.
+                    Aliquam
+                    tristique dapibus
+                    quam, in interdum sapien mollis ut. In eget gravida nunc. Etiam quis mattis tortor. Proin ac libero
+                    lacus.
+                </p>
+            </article>
+            <article>
+                <h1>Lekcje</h1>
+                <section class="button" id="html">
+                    <a href="pages/html5.html">
+                        <h2>HTML</h2>
+                    </a>
+                </section>
+                <section class="button" id="css">
+                    <a href="pages/css3.html">
+                        <h2>CSS</h2>
+                    </a>
+                </section>
+                <section class="button" id="js">
+                    <a href="pages/jscript.html">
+                        <h2>JavaScript</h2>
+                    </a>
+                </section>
+                <section class="button" id="php">
+                    <a href="pages/php.html">
+                        <h2>PHP</h2>
+                    </a>
+                </section>
+                <section class="button" id="sql">
+                    <a href="pages/sql.html">
+                        <h2>SQL</h2>
+                    </a>
+                </section>
+                <section class="button" id="other">
+                    <a href="pages/framew.html">
+                        <h2>Frameworki</h2>
+                    </a>
+                </section>
+            </article>
+            <article>
+                <h1>Przydatne strony i materiały:</h1>
+                <p>Mała informacja: niektóre ze stron są bazowane w języku angielskim. Nie zawsze będzie możliwość
+                    tłumaczenia, a nawet jeśli się pojawi, nie ma pewności, c odo jakości tłumaczenia. </p>
+                <dl>
+                    <dt><a href="https://www.w3schools.com/">W3School</a></dt>
+                    <dd>Jedna z najpopularniejszych stron do nauki WebDev, zawiera nie tylko jedną z większych kolekcji
+                        kursów jaką można znaleśc w internecie, w jednym miejscu, ale również zestwa użytecznych
+                        narzędzi,
+                        między innymi rozbudowany edytor kolorów oraz możliwość testowania kodu na stornie.</dd>
+                    <dt><a href="https://roadmap.sh">Roadmaps</a></dt>
+                    <dd>Mapy wspomagające naukę konkretnych umiejętności oraz przygotowaia do określonych zawodów, w
+                        tym:
+                        Front- i Enddeveloper, Android Dev, Computer Sience, Angular i React.js, Python, Node.js.</dd>
+                    <dt><a href="https://validator.w3.org/nu/">Validator</a></dt>
+                    <dd>Strona sprawdzająca poprawność pisowni </dd>
+                    <dt></dt>
+                    <dd>Ilustrowane książki zawierające wprowadzenie do HTML/CSS oraz JS/JQuery</dd>
+                    <dt><a href="https://www.lipsum.com/">Lorem Ipsum</a></dt>
+                    <dd>Strona generująca tekst, który można wstawić jako wizualny placeholder podczas kodowania.</dd>
+                    <dt><a href="https://fontello.com/">Fontello</a></dt>
+                    <dd>Darmowe ikony działające jako element fontu</dd>
+                </dl>
+            </article>
+        </main>
+        <footer>
+            <h1>Autor:Joanna Żuchowska, 2022</h1>
+            <p>Wszystkie linki zawarte na tej stronie prowadzą lub odnoszą się do źródeł, kóre były wykorzystane do
+                stworzenia tej strony.</p>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+.menubut{
+    display: none;
+}
+#back{
+    display: none;
+}
+#backg{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    display: none;;
+}
+#sec_menu{
+    display: none;
+}
+@media screen and (max-width:960px){
+    #side{
+        width:100%;
+    }
+    header li a{
+        width: auto;
+    }
+}
+@media screen and (max-width:580px){
+    .button{
+        width: 100%;
+    }
+    img{
+        float: left;
+    }
+    .menubut{
+        display: block;
+        float: right;
+    }
+    #side{
+        width:90%;
+    }
+    #back{
+        display: block;
+    }
+    #sec_menu{
+        display: block;
+    }
+    aside{
+        display: none;
+        position: fixed;
+        top:0px;
+        right:0px;
+        height: 100%;
+        width: 50%;
+    }
+    nav{
+        display: none;
+        height: 100%;
+        width: 50%;
+        position: fixed;
+        top:0px;
+        right:0px;
+    }
+    header li, header li a, #home{
+        display: block;
+        width:100%;
+        height:12%;
+    }
+    main{
+        clear: both;
+        width: 95%;
+        margin: 0 auto;
+        padding:0;
+    }
+}
